@@ -53,7 +53,7 @@ public class Personaje : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Return) && estado == EstadoPersonaje.muerto)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("JuegoFlappy");
         }
     }
 
